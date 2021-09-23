@@ -1,0 +1,106 @@
+*{margin:0;padding:0;}
+
+.header_section{height:86vh;background: #7fffd4;}
+
+
+.menubar {display: none;}
+
+li {color: #ddd;padding: 10px;text-transform: uppercase;}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+li {}
+
+.dashboard_header1 {
+    padding: 20px;
+    font-size: 32px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-40%);
+    position: absolute;
+}
+
+.logo {
+    font-size: 44px;
+    padding: 12px;
+    color: orange;
+    text-transform: uppercase;
+}
+
+section.content_section {
+    background: #eee;
+    text-align: center;
+}
+
+h2 {
+    font-size: 31px;
+    padding: 20px;
+}
+
+p {
+    max-width: 1200px;
+    margin: auto;
+    padding: 23px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.blocks {}
+
+.block_design {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-bottom: 20px;
+    background: #eee;
+}
+
+.blocks {
+    width: 400px;
+    margin: 23px auto;
+    padding: 20px;
+    border-radius: 12px;
+    height: 200px;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.3), -4px -4px 6px -1px rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,0.01);
+}
+
+.copyright h3 {line-height: 32px;display: inline-block;font-size: 18px;}
+
+input[type="text"] {
+    padding:  10px 20px;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 22%;
+}
+
+button {
+    padding: 9px 16px;
+    border-radius: 23px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(99deg,#ff572200,#FF5722);
+}
+
+button:focus{outline:none;border:none;border:1px solid #111;}
+
+.copyright {
+    text-align: center;
+    background: aquamarine;
+}
